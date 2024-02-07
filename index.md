@@ -35,5 +35,32 @@ We give this project a medium level of difficulty. The project can be completed 
 
 This project will require intermediate experience with Python, machine learning (in particular TensorFlow and training models with imagery), interacting with RESTful APIs, and limited experience with JavaScript, HTML, and CSS.
 
-The mentors for the project will include two Program Directors at the Mayor’s Office of Urban Mechanics, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston in 2021 and 2022.
+The mentors for the project will include key staff from the City of Boston, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2023.
+
+### 3. Expanded Translation for the City's 311 App with Machine Learning
+
+In 2010, our office launched the City of Boston's [311 app](https://311.boston.gov/) (one of the first in the nation). The app allows residents to report an array on non-emergency issues (such as potholes) with their smartphones. Historically, the app has only been offered in English, and we have done some of the preliminary work to provide it in other languages. This is a very important issue to address, since up to 33% of the city does not speak English.
+
+[Inspired by the City of San José](https://medium.com/swlh/better-language-translation-through-machine-learning-everything-i-wish-i-knew-6-months-ago-8fa212fb1731), our Google Summer of Code contributor for 2022 created a machine learning model that improves the translation of text from residents reporting issues through the 311 app. The model was based on a custom, trained model using vocabulary frequently associated with City services. Their progress can be found here:
+
+[github.com/monum/311-translation](https://github.com/monum/311-translation)
+
+The machine learning model works well, but still needs improvement for the languages initially tested, namely Spanish and Vietnamese. We also want to make the translation model accessible via a web-service API. Finally, the translation service does not address the following languages used by Boston's residents:
+
+- Simplified Chinese
+- Haitian Creole
+- Cabo Verdean Creole
+- Portuguese
+- Russian
+- Arabic
+- French
+- Somali
+
+This summer, we would like to add two more languages to the machine learning model and make it API-accessible, in order to create a translation service. The translation service should accept text from a 311 request and return translated text that could be easily understood by our City operations teams. We will also continue to benchmark the progress of this translation service against more general translation services.
+
+We give this project a **medium** level of difficulty. The project can be completed in **350 hours**.
+
+This project requires intermediate experience with machine learning, building and training models with text classification, natural language processing, and Python. It will also require intermediate experience with building web service APIs with with a web framework like Flask, Django etc.
+
+The mentors for the project will include key staff from the City of Boston, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2023.
 
