@@ -6,7 +6,7 @@ Below, you will find a list of ideas we have for a Google Summer of Code contrib
 
 You can find guidance for applications and your project proposals **[here](https://cityofboston.github.io/summerofcode/guidance)**.
 
-## Ideas List for 2023
+## Ideas List for 2024
 
 ### 1. Requesting City Services via AI-Driven Apps
 
@@ -16,7 +16,7 @@ The City believes that we can greatly improve the 311 experience by including AI
 
 To help bring this to life, a Google Summer of Code contributor will build and train an AI model based on the hundreds of thousands photos submitted to Boston’s 311 system over the last several years. The AI will be capable of analyzing images users submit and determining the type of services they are most likely to be requesting.
 
-We give this project a medium level difficulty. The project can be completed in **175 hours**.
+We give this project a **medium** level difficulty. The project can be completed in **175 hours**.
 
 This project requires knowledge of AI-based image processing and associated libraries and tools. The trained model must be turned into a performant API that can be accessed through a Web or App-based UI. Advanced app-building experience is not necessary, but we will a basic app to test the model on a variety of devices in varying conditions.
 
