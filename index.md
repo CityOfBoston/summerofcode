@@ -14,13 +14,13 @@ Residents of Boston can request a variety of non-emergency services through the 
 
 The City believes that we can greatly improve the 311 experience by including AI-based image-recognition in our 311 apps. We envision a future where all a resident has to do is snap a photo of a problem they want to remedy. The AI will analyze the photo, determine the problem, and allow the user to submit a request in seconds. City staff would also benefit from this AI, as miscategorized 311 submissions can lead to mistaken deployment of resources.
 
-To help bring this to life, a Google Summer of Code intern will build and train an AI model based on the hundreds of thousands photos submitted to Boston’s 311 system over the last several years. The AI will be capable of analyzing images users submit and determining the type of services they are most likely to be requesting.
+To help bring this to life, a Google Summer of Code contributor will build and train an AI model based on the hundreds of thousands photos submitted to Boston’s 311 system over the last several years. The AI will be capable of analyzing images users submit and determining the type of services they are most likely to be requesting.
 
-We give this project a medium to high level difficulty.
+We give this project a medium level difficulty. The project can be completed in **175 hours**.
 
 This project requires knowledge of AI-based image processing and associated libraries and tools. The trained model must be turned into a performant API that can be accessed through a Web or App-based UI. Advanced app-building experience is not necessary, but we will a basic app to test the model on a variety of devices in varying conditions.
 
-The mentors of this project will include the Senior Director of Products and Services, Basic City Services; the Chief Digital Officer; with guidance and input from the Chief Information Officer.
+The mentors of this project will include the City of Boston/s Senior Director of Products and Services (Basic City Services); the Chief Digital Officer; with guidance and input from the Chief Information Officer.
 
 ### 2. Web Interface for Urban Tree Canopy Detection Using Satellite and Aerial Imagery
 
@@ -31,7 +31,7 @@ This year, we would like to operationalize this project for the Parks Department
 We would also like to explore ways to find more insights from the aerial imagery. For example, we would also like to look at the feasibility of determining tree health and the variety of tree species across the city.
 The ideal outcome would be 1) the creation of a simple web interface for the Parks Department to upload new aerial imagery for analysis, and 2) the ability to the Parks Department to generate a list of statistics on tree counts and tree healthto ensure that it continues to plants trees in an equitable manner across the city.
 
-We give this project a medium level of difficulty. The project can be completed in 175 hours.
+We give this project a **medium** level of difficulty. The project can be completed in **175 hours**.
 
 This project will require intermediate experience with Python, machine learning (in particular TensorFlow and training models with imagery), interacting with RESTful APIs, and limited experience with JavaScript, HTML, and CSS.
 
@@ -58,7 +58,7 @@ The machine learning model works well, but still needs improvement for the langu
 
 This summer, we would like to add two more languages to the machine learning model and make it API-accessible, in order to create a translation service. The translation service should accept text from a 311 request and return translated text that could be easily understood by our City operations teams. We will also continue to benchmark the progress of this translation service against more general translation services.
 
-We give this project a **medium** level of difficulty. The project can be completed in **350 hours**.
+We give this project a **medium** level of difficulty. The project can be completed in **175 hours**.
 
 This project requires intermediate experience with machine learning, building and training models with text classification, natural language processing, and Python. It will also require intermediate experience with building web service APIs with with a web framework like Flask, Django etc.
 
