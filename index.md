@@ -22,22 +22,7 @@ This project requires knowledge of AI-based image processing and associated libr
 
 The mentors of this project will include the City of Boston/s Senior Director of Products and Services (Basic City Services); the Chief Digital Officer; with guidance and input from the Chief Information Officer.
 
-### 2. Web Interface for Urban Tree Canopy Detection Using Satellite and Aerial Imagery
-
-The City of Boston’s Parks Department maintains a comprehensive data set on trees in Boston. However, it’s a manual and laborious process to get the data (such as conducting site visits for tree counts) on a regular basis. Last summer, a student built a Boston-specific model to identify trees from aerial imagery; it was based on Deep Forest, a machine learning library for tree crown detection.
-
-This year, we would like to operationalize this project for the Parks Department. Right now, the machine learning model runs on Google Colab, which has proven difficult for staff at the Parks Department to learn. They need a simple web interface that allows for the upload of updated imagery and subsequent analysis.
-
-We would also like to explore ways to find more insights from the aerial imagery. For example, we would also like to look at the feasibility of determining tree health and the variety of tree species across the city.
-The ideal outcome would be 1) the creation of a simple web interface for the Parks Department to upload new aerial imagery for analysis, and 2) the ability to the Parks Department to generate a list of statistics on tree counts and tree healthto ensure that it continues to plants trees in an equitable manner across the city.
-
-We give this project a **medium** level of difficulty. The project can be completed in **175 hours**.
-
-This project will require intermediate experience with Python, machine learning (in particular TensorFlow and training models with imagery), interacting with RESTful APIs, and limited experience with JavaScript, HTML, and CSS.
-
-The mentors for the project will include key staff from the City of Boston, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2023.
-
-### 3. Expanded Translation for the City's 311 App with Machine Learning
+### 2. Expanded Translation for the City's 311 App with Machine Learning
 
 In 2010, our office launched the City of Boston's [311 app](https://311.boston.gov/) (one of the first in the nation). The app allows residents to report an array on non-emergency issues (such as potholes) with their smartphones. Historically, the app has only been offered in English, and we have done some of the preliminary work to provide it in other languages. This is a very important issue to address, since up to 33% of the city does not speak English.
 
