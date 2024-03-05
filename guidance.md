@@ -6,7 +6,7 @@ The Department of Innovation and Technology engages, empowers, and improves life
 
 ### A Quick Note on Working with Us
 
-As an office in local government, we are open 9 - 5 PM EST. Selected students will be expected to attend frequent check-in meetings during those hours. They are also expected to attend weekly meetings with our fellowship cohort during Friday afternoons EST.
+As an office in local government, we are open 9 - 5 PM EST. Selected students will be expected to attend frequent check-in meetings during those hours. If you have any questions, you can reach out to us at **opensource@boston.gov**.
 
 ## Templates for Proposals
 
