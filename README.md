@@ -35,7 +35,7 @@ This Flutter application allows users to submit municipal-related complaints by 
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/municipal-complaint-app.git
+    git clone https://github.com/AMANREVANKAR/summerofcode.git
     cd summerofcode
     ```
 
