@@ -4,8 +4,8 @@ This Flutter application allows users to submit municipal-related complaints by 
 
 ## Features
 
-- Capture images using the device camera
-- Select images from the device gallery
+- Capture images using the device camera or form gallery
+- allows user to share location of the compliant to be registered
 - Submit complaints with images and descriptions
 - Automatic classification of complaints to the relevant municipal department
 
