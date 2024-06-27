@@ -3,7 +3,7 @@
 This Flutter application allows users to submit municipal-related complaints by capturing images using the camera or selecting images from the gallery. The backend API, built with FastAPI, classifies the complaints and directs them to the appropriate department using a Vision Transformer model trained on a custom dataset.
 
 ## About Dataset ##
-- The model is trained on self made dataset, featuring images both self-captured and sourced from the internet, across five categories:. 
+- The model is trained on self made dataset consisting over 125 images with 25 images for each category, featuring images both self-captured and sourced from the internet, across five categories:. 
 
     - Road and Transport Department
     - Electricity Department
