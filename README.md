@@ -60,7 +60,7 @@ This Flutter application allows users to submit municipal-related complaints by 
       cd backend
       ```
 
-    - Create a virtual environment and activate it:
+    - Setting up the server:
       ```sh
       add the server ip address and port number
       ```
