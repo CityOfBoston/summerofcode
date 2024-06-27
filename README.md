@@ -1,4 +1,4 @@
-# Snapresolve App
+# Requesting City Services via AI-Driven App
 
 This Flutter application allows users to submit municipal-related complaints by capturing images using the camera or selecting images from the gallery. The backend API, built with FastAPI, classifies the complaints and directs them to the appropriate department using a Vision Transformer model trained on a custom dataset.
 
