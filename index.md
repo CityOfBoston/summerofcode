@@ -22,10 +22,21 @@ We give this project a **medium** level difficulty. The project can be completed
 
 This project requires expertise in web-based interactive mapping technologies and data visualization. The contributor should be comfortable working with spatial data and creating intuitive user interfaces for complex planning scenarios.
 
-The mentors for the project will include key staff from the City of Boston's Office of Emerging Technology including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
+The mentors for the project will include key staff from the City of Boston's Office of Emerging Technology, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
 
+### 2. Modern Data Visualization Components for Urban Analytics
 
-### 2. Computer Vision Curb-Use Analysis System
+In the past few years, we have developed various dashboards to help citizens and city officials understand urban data. While these dashboards serve their purpose, we see an opportunity to create more engaging and interactive visualizations using modern web technologies that can handle large datasets efficiently.
+
+This project will include the following activities: 1) Creating reusable visualization components using Mapbox GL and D3.js that can visualize building energy data, 311 service requests, and traffic patterns 2) Implementing a component library with interactive features like temporal analysis, dynamic filtering, and cross-linking between different visualization types. The components should be responsive and work across different screen sizes 3) Building example implementations for three use cases: a building energy dashboard showing consumption patterns, a 311 dashboard displaying service request distributions, and a traffic dashboard visualizing congestion and signal timing data.
+
+We give this project a **medium** level of difficulty. The project can be completed in 175 hours.
+
+This project will require advanced experience with JavaScript, familiarity with open-source JavaScript libraries for interactive maps (Mapbox GL, MapLibre), and experience with modern visualization libraries (D3.js). Understanding of geospatial data formats is also esssential.
+
+The mentors for the project will include key staff from the City of Boston's Office of Emerging Technology, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
+
+### 3. Computer Vision Curb-Use Analysis System
 
 The City of Boston's Streets Cabinet currently relies on labor-intensive manual processes for parking studies, where city planners walk Boston's diverse neighborhoods with clipboards, recording license plates at 15-minute intervals. This methodology severely limits both the scope and depth of curb usage analysis, providing only a narrow snapshot of parking patterns in our bustling urban areas.
 
@@ -43,4 +54,4 @@ We give this project a **medium** level of difficulty. The project can be comple
 
 This project requires experience with computer vision technologies, particularly in training and implementing object detection models. The contributor should be comfortable working with video processing pipelines and developing automated reporting systems.
 
-The mentors for the project will include key staff from the City of Boston's Office of Emerging Technology including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
+The mentors for the project will include key staff from the City of Boston's Office of Emerging Technology, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
