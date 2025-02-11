@@ -10,9 +10,9 @@ You can find guidance for applications and your project proposals **[here](https
 
 ### 1. Interactive Curb Management Planning Tool
 
-As our city navigates the rise of ride-sharing, delivery services, bike lanes, and evolving traffic patterns, the Boston Streets Cabinet faces increasingly complex challenges in optimizing our finite curb space. Traditional space-by-space planning approaches no longer suffice for managing what has become an intricate ecosystem of competing demands in our dense urban neighborhoods.
+As our city navigates the rise of ride-sharing, delivery services, bike lanes, and evolving traffic patterns, the City of Boston's Streets Cabinet faces increasingly complex challenges in optimizing our finite curb space. Traditional space-by-space planning approaches no longer suffice for managing what has become an intricate ecosystem of competing demands in our dense urban neighborhoods.
 
-Boston's street planners within the Streets Cabinet currently face a significant challenge: while planning major street redesigns across the city's diverse neighborhoods, they lack comprehensive tools to understand and model how changes will impact the broader ecosystem. This interactive tool will help our planners to visualize and optimize curb usage across entire neighborhoods.  This tool will help city planners:
+Boston's transportation planners currently face a significant challenge: while planning major street redesigns across the city's diverse neighborhoods, they lack comprehensive tools to understand and model how changes will impact the broader ecosystem. This interactive tool will help our planners to visualize and optimize curb usage across entire neighborhoods.  This tool will help city planners:
 - Visualize current curb usage patterns across multiple Boston neighborhoods
 - Model the impact of proposed changes on surrounding areas utilizing key planning metrics
 - Analyze competing demands for curb space in high-traffic areas
