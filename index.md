@@ -1,6 +1,6 @@
 # Google Summer of Code with the City of Boston
 
-Below, you will find a list of ideas we have for a Google Summer of Code contributors for the **summer of 2024**. Thank you for your consideration!
+Below, you will find a list of ideas we have for a Google Summer of Code contributors for the **summer of 2025**. Thank you for your consideration!
 
 ## Guidance for Applications and Project Proposals
 
