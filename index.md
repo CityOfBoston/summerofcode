@@ -6,46 +6,41 @@ Below, you will find a list of ideas we have for a Google Summer of Code contrib
 
 You can find guidance for applications and your project proposals **[here](https://cityofboston.github.io/summerofcode/guidance)**.
 
-## Ideas List for 2024
+## Ideas List for 2025
 
-### 1. Requesting City Services via AI-Driven Apps
+### 1. Interactive Curb Management Planning Tool
 
-Residents of Boston can request a variety of non-emergency services through the City’s 311 system. Annually, more than 300,000 requests flow into 311. These include requests for street sweeping, litter pickup, pothole repair, parking enforcement, and dozens of other services. Residents request services by calling our 311 contact center, going to our website, or using the 311 app.
+As our city navigates the rise of ride-sharing, delivery services, bike lanes, and evolving traffic patterns, the Boston Streets Cabinet faces increasingly complex challenges in optimizing our finite curb space. Traditional space-by-space planning approaches no longer suffice for managing what has become an intricate ecosystem of competing demands in our dense urban neighborhoods.
 
-The City believes that we can greatly improve the 311 experience by including AI-based image-recognition in our 311 apps. We envision a future where all a resident has to do is snap a photo of a problem they want to remedy. The AI will analyze the photo, determine the problem, and allow the user to submit a request in seconds. City staff would also benefit from this AI, as miscategorized 311 submissions can lead to mistaken deployment of resources.
-
-To help bring this to life, a Google Summer of Code contributor will build and train an AI model based on the hundreds of thousands photos submitted to Boston’s 311 system over the last several years. The AI will be capable of analyzing images users submit and determining the type of services they are most likely to be requesting.
+Boston's street planners within the Streets Cabinet currently face a significant challenge: while planning major street redesigns across the city's diverse neighborhoods, they lack comprehensive tools to understand and model how changes will impact the broader ecosystem. This interactive tool will help our planners to visualize and optimize curb usage across entire neighborhoods.  This tool will help city planners:
+- Visualize current curb usage patterns across multiple Boston neighborhoods
+- Model the impact of proposed changes on surrounding areas utilizing key planning metrics
+- Analyze competing demands for curb space in high-traffic areas
+- Generate data-driven recommendations for optimal curb allocation
 
 We give this project a **medium** level difficulty. The project can be completed in **175 hours**.
 
-This project requires knowledge of AI-based image processing and associated libraries and tools. The trained model must be turned into a performant API that can be accessed through a Web or App-based UI. Advanced app-building experience is not necessary, but we will a basic app to test the model on a variety of devices in varying conditions.
+This project requires expertise in web-based interactive mapping technologies and data visualization. The contributor should be comfortable working with spatial data and creating intuitive user interfaces for complex planning scenarios.
 
-The mentors of this project will include the City of Boston/s Senior Director of Products and Services (Basic City Services); the Chief Digital Officer; with guidance and input from the Chief Information Officer.
+The mentors for the project will include key staff from the City of Boston's Office of Emerging Technology including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
 
-### 2. Expanded Translation for the City's 311 App with Machine Learning
 
-In 2010, our office launched the City of Boston's [311 app](https://311.boston.gov/) (one of the first in the nation). The app allows residents to report an array on non-emergency issues (such as potholes) with their smartphones. Historically, the app has only been offered in English, and we have done some of the preliminary work to provide it in other languages. This is a very important issue to address, since up to 33% of the city does not speak English.
+### 2. Computer Vision Curb-Use Analysis System
 
-[Inspired by the City of San José](https://medium.com/swlh/better-language-translation-through-machine-learning-everything-i-wish-i-knew-6-months-ago-8fa212fb1731), our Google Summer of Code contributor for 2022 created a machine learning model that improves the translation of text from residents reporting issues through the 311 app. The model was based on a custom, trained model using vocabulary frequently associated with City services. Their progress can be found here:
+The City of Boston's Streets Cabinet currently relies on labor-intensive manual processes for parking studies, where city planners walk Boston's diverse neighborhoods with clipboards, recording license plates at 15-minute intervals. This methodology severely limits both the scope and depth of curb usage analysis, providing only a narrow snapshot of parking patterns in our bustling urban areas.
 
-[github.com/monum/311-translation](https://github.com/monum/311-translation)
+Boston's Office of Emerging Technology, leveraging its expertise in municipal AI applications, has identified an opportunity to revolutionize how the city conducts parking studies. By applying sophisticated computer vision technology to analyze video feeds from standard cameras like GoPros, we can dramatically expand both the geographical scope and temporal range of curb usage analysis across Boston's neighborhoods while simultaneously reducing manual effort.
 
-The machine learning model works well, but still needs improvement for the languages initially tested, namely Spanish and Vietnamese. We also want to make the translation model accessible via a web-service API. Finally, the translation service does not address the following languages used by Boston's residents:
+A Google Summer of Code contributor will develop a computer vision system that:
+- Processes video feeds from off-the-shelf cameras to automatically detect and classify various types of curb usage across Boston's streets
+- Generates standardized reports for the Streets Cabinet detailing parking patterns, turnover rates, and regulatory compliance
+- Tracks multiple behaviors including parking duration, double parking, and loading zone utilization specific to Boston's unique urban context
+- Aggregates data across multiple locations and time periods to create comprehensive parking studies for neighborhood planning
 
-- Simplified Chinese
-- Haitian Creole
-- Cabo Verdean Creole
-- Portuguese
-- Russian
-- Arabic
-- French
-- Somali
-
-This summer, we would like to add two more languages to the machine learning model and make it API-accessible, in order to create a translation service. The translation service should accept text from a 311 request and return translated text that could be easily understood by our City operations teams. We will also continue to benchmark the progress of this translation service against more general translation services.
+The technical implementation will focus on training and optimizing object detection models (YOLOv8  or others) for the specific challenges of urban curb usage analysis, with direct support from Boston's Office of Emerging Technology's AI expertise.
 
 We give this project a **medium** level of difficulty. The project can be completed in **175 hours**.
 
-This project requires intermediate experience with machine learning, building and training models with text classification, natural language processing, and Python. It will also require intermediate experience with building web service APIs with with a web framework like Flask, Django etc.
+This project requires experience with computer vision technologies, particularly in training and implementing object detection models. The contributor should be comfortable working with video processing pipelines and developing automated reporting systems.
 
-The mentors for the project will include key staff from the City of Boston, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2023.
-
+The mentors for the project will include key staff from the City of Boston's Office of Emerging Technology including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
