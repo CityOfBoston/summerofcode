@@ -58,7 +58,23 @@ This project will require experience with JavaScript, familiarity with open-sour
 
 The mentors for the project will include key staff from the City of Boston's Office of Emerging Technology, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
 
-### 3. Using Computer Vision for Curb-Use Analysis
+### 3. Web Interface for Urban Tree Canopy Detection Using Satellite and Aerial Imagery
+
+The City of Boston’s Parks Department maintains a comprehensive data set on trees in Boston. However, it’s a manual and laborious process to get the data (such as conducting site visits for tree counts) on a regular basis. Previously, a student built a Boston-specific model to identify trees from aerial imagery; it was based on Deep Forest, a machine learning library for tree crown detection.
+
+This summer, we would like to operationalize this project for the Parks Department. Right now, the machine learning model runs on Google Colab, which has proven difficult for staff at the Parks Department to learn. They need a simple web interface that allows for the upload of updated imagery and subsequent analysis.
+
+We would also like to explore ways to find more insights from the aerial imagery. For example, we are interested in the feasibility of determining tree health and the variety of tree species across the city.
+
+The ideal outcome would be 1) the creation of a simple web interface for the Parks Department to upload new aerial imagery for analysis, and 2) the ability to the Parks Department to generate a list of statistics on tree counts and tree healthto ensure that it continues to plants trees in an equitable manner across the city.
+
+We give this project a **medium** level of difficulty. The project can be completed in **175 hours**.
+
+This project will require intermediate experience with Python, machine learning (in particular TensorFlow and training models with imagery), interacting with RESTful APIs, and limited experience with JavaScript, HTML, and CSS.
+
+The mentors for the project will include key staff from the City of Boston, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston between 2021 and 2024.
+
+### 4. Using Computer Vision for Curb-Use Analysis
 
 The City of Boston's Transportation Department relies on labor-intensive manual processes for parking studies, where City planners walk Boston's neighborhoods with clipboards, recording license plates at 15-minute intervals. This methodology limits the scope and depth of curb usage analysis, providing only a narrow snapshot of parking patterns in our urban areas.
 
